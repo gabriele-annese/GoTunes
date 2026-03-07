@@ -34,10 +34,10 @@ func main() {
 
 	dis_session.AddHandler(func(s *discordgo.Session, r *discordgo.Ready) {
 		log.Printf(
-			"Il bot del DUCE si e' connesso come %v#%v",
+			"Il bot si e' connesso come %v#%v",
 			s.State.User.Username,
 			s.State.User.Discriminator)
-		s.UpdateGameStatus(0, "Cazzo vuoi EBREO")
+		s.UpdateGameStatus(0, "Cazzo vuoi colgione")
 	})
 
 	// Apri la connessione
